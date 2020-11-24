@@ -1,0 +1,100 @@
+.copyright-links {
+  .copyright {
+    width: 227px;
+    height: 22px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #060a24;
+    margin: 25px 46.5px;
+    margin-top: 25px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    .icon-social {
+      width: 16px;
+      height: 16px;
+      margin: 0px 18px 20px 18px;
+    }
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .copyright-links {
+    .copyright {
+      margin: 25px 74px;
+    }
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .copyright-links {
+    .copyright {
+      margin: 25px 99px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .copyright-links {
+    display: flex;
+    justify-content: space-between;
+    .copyright {
+      width: 227px;
+      height: 22px;
+      margin: 25px 46.5px;
+      margin-top: 25px;
+    }
+    .links {
+      margin-top: 26px;
+      .icon-social {
+        width: 16px;
+        height: 16px;
+        margin: 0px 18px 0px 18px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .copyright-links {
+    display: flex;
+    justify-content: space-between;
+    .copyright {
+      width: auto;
+      height: 22px;
+      margin: 25px 46.5px;
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    .links {
+      margin-top: 26px;
+      margin-right: 25px;
+      .icon-social {
+        width: 16px;
+        height: 16px;
+        margin: 0px 18px 0px 18px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+  .copyright-links {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 24px 0;
+    .copyright {
+      width: auto;
+      height: 22px;
+      margin: 25px 46.5px;
+      margin-top: 25px;
+      font-size: 20px;
+    }
+    .links {
+      margin-top: 26px;
+      margin-right: 25px;
+      .icon-social {
+        width: 20px;
+        height: 20px;
+        margin: 0px 18px 0px 18px;
+      }
+    }
+  }
+}

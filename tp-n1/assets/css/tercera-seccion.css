@@ -1,0 +1,102 @@
+.tercera-seccion {
+  width: auto;
+  height: auto;
+  margin: 10px 0; }
+  .tercera-seccion .h2-invitados {
+    font-size: 36px;
+    color: #060a24;
+    width: 288px;
+    margin: 14px 16px; }
+  .tercera-seccion .invitados {
+    width: auto;
+    height: 243px;
+    margin: 0%; }
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .tercera-seccion {
+    width: auto;
+    height: auto; }
+    .tercera-seccion .h2-invitados {
+      font-size: 36px;
+      color: #060a24;
+      width: 288px;
+      margin: 14px 16px; }
+    .tercera-seccion .invitados {
+      width: 375px;
+      height: auto; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .tercera-seccion {
+    width: auto;
+    height: auto; }
+    .tercera-seccion .h2-invitados {
+      font-size: 36px;
+      color: #060a24;
+      width: 288px;
+      margin: 14px 16px; }
+    .tercera-seccion .invitados {
+      width: 425px;
+      height: auto; } }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .tercera-seccion {
+    width: auto;
+    height: 800px;
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap; }
+    .tercera-seccion .h2-invitados {
+      font-size: 36px;
+      color: #060a24;
+      width: 288px;
+      margin: 14px 400px 15px 16px; }
+    .tercera-seccion .invitados {
+      width: 384px;
+      height: auto; } }
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .tercera-seccion {
+    width: auto;
+    height: 600px;
+    margin-top: 180px;
+    display: flex;
+    flex-wrap: wrap; }
+    .tercera-seccion .h2-invitados {
+      font-size: 36px;
+      color: #060a24;
+      width: auto;
+      margin: 14px 400px 15px 16px; }
+    .tercera-seccion .invitados {
+      margin: auto;
+      width: 341px;
+      height: auto; } }
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+  .tercera-seccion {
+    width: auto;
+    height: 600px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap; }
+    .tercera-seccion .h2-invitados {
+      font-size: 48px;
+      color: #060a24;
+      width: auto;
+      margin: 14px 700px 36px 200px; }
+    .tercera-seccion .invitados {
+      margin: auto;
+      width: 480px;
+      height: auto; } }
+@media only screen and (min-width: 1920px) {
+  .tercera-seccion {
+    width: auto;
+    height: 600px;
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap; }
+    .tercera-seccion .h2-invitados {
+      font-size: 48px;
+      color: #060a24;
+      width: auto;
+      margin: 14px 900px 50px 200px; }
+    .tercera-seccion .invitados {
+      width: 634px;
+      height: auto; } }
+
+/*# sourceMappingURL=tercera-seccion.css.map */
