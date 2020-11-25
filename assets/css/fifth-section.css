@@ -13,8 +13,7 @@
     height: 126px;
     padding-top: 64px;
     text-align: center;
-    padding-bottom: 36px;
-    font-family: 'IBM Plex Mono', monospace; }
+    padding-bottom: 36px; }
   .quinta-seccion .novedades .boton {
     text-align: center;
     font-size: 16px;
@@ -92,6 +91,8 @@
     .quinta-seccion .novedades .boton {
       margin: 0 787.5px;
       width: 345px;
-      font-size: 20px; } }
+      font-size: 20px; }
+      .quinta-seccion .novedades .boton a {
+        padding: 16px 43px; } }
 
 /*# sourceMappingURL=fifth-section.css.map */
