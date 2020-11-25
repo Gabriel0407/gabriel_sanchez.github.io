@@ -54,10 +54,17 @@ header {
 }
 
 /*accion para desplegar el menu en mobile*/
-#menu-hamburguesa:checked + .box {
+#menu-hamburguesa:checked + .tabla-de-contenido >.box {
   display: block;
 }
-
+#menu-hamburguesa:checked + .tabla-de-contenido + .label .icon{
+  display: none;
+ 
+}
+#menu-hamburguesa:checked + .tabla-de-contenido + .label .icon-close{
+  display: block;
+  
+}
 @media (min-width: 375px) {
   header {
     width: 100%;

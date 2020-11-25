@@ -9,7 +9,8 @@
       font-size: 36px;
       padding-top: 70px;
       margin-left: 16px;
-      color: white; }
+      color: white;
+      font-family: 'IBM Plex Mono', monospace; }
     .segunda-seccion .segunda-seccion-parte1 .spotify .img-ep-l {
       display: none; }
     .segunda-seccion .segunda-seccion-parte1 .spotify .img-ep {
@@ -29,7 +30,7 @@
       margin-top: 27px;
       margin-right: 140px; }
     .segunda-seccion .dd-venimos .p-venimos {
-      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'IBM Plex Mono', monospace;
       margin-top: 8px;
       margin-bottom: 54px;
       font-size: 16px; }
@@ -227,4 +228,4 @@
       margin-bottom: 54px;
       font-size: 20px; } }
 
-/*# sourceMappingURL=segunda-seccion.css.map */
+/*# sourceMappingURL=second-section.css.map */
