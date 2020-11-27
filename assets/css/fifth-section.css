@@ -5,94 +5,29 @@
   background-size: 100%;
   background-repeat: no-repeat;
   height: 341px; }
-  .quinta-seccion .novedades .h2-novedades {
-    color: white;
-    font-size: 36px;
-    margin: 0 16px 0 16px;
-    width: 288px;
-    height: 126px;
-    padding-top: 64px;
-    text-align: center;
-    padding-bottom: 36px; }
-  .quinta-seccion .novedades .boton {
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color: #00f3bb;
-    margin: 0 16px;
-    padding: 16px 0;
-    transition: 0.4s;
-    background-size: 150%; }
-    .quinta-seccion .novedades .boton a {
-      color: #060a24;
-      text-decoration: none;
-      padding: 16px 46px; }
-      .quinta-seccion .novedades .boton a:hover {
-        color: white; }
-
-.boton:hover {
-  background-image: linear-gradient(to left, #0000fe, #3333f5, #00d1e5, #00f0b8, #00f0b8);
-  background-position: right;
-  box-shadow: 0 0 15px white; }
-
-@media only screen and (min-width: 375px) and (max-width: 424px) {
-  .quinta-seccion .novedades .h2-novedades {
-    margin: 0 43.5px;
-    padding-top: 64px;
-    padding-bottom: 36px; } }
-@media only screen and (min-width: 425px) and (max-width: 767px) {
-  .quinta-seccion .novedades .h2-novedades {
-    margin: 0 68.5px;
-    padding-bottom: 40px;
-    font-size: 40px; }
-  .quinta-seccion .novedades .boton {
-    margin: 0 26px; } }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .quinta-seccion .novedades .h2-novedades {
-    margin: 0 38px;
-    width: 692px;
-    height: 62px;
-    padding-top: 120px;
-    font-size: 40px; }
-  .quinta-seccion .novedades .boton {
-    margin: auto;
-    width: 345px; } }
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {
-  .quinta-seccion .novedades .h2-novedades {
-    margin: 0 166px;
-    width: 692px;
-    height: 62px;
-    padding-top: 140px;
-    font-size: 48px; }
-  .quinta-seccion .novedades .boton {
-    margin: 0 339.5px;
-    width: 345px;
-    font-size: 18px; } }
-@media only screen and (min-width: 1440px) and (max-width: 1919px) {
-  .quinta-seccion .novedades .h2-novedades {
-    margin: 0 374px;
-    width: 692px;
-    height: 62px;
-    padding-top: 140px;
-    font-size: 48px; }
-  .quinta-seccion .novedades .boton {
-    margin: 0 547.5px;
-    width: 345px;
-    font-size: 18px; } }
-@media only screen and (min-width: 1920px) {
-  .quinta-seccion {
-    height: 400px; }
+  .quinta-seccion .novedades {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
     .quinta-seccion .novedades .h2-novedades {
-      margin: 0 614px;
-      width: 692px;
-      height: 62px;
-      padding-top: 140px;
-      font-size: 50px; }
+      margin-top: 80px;
+      font-size: 40px;
+      color: white; }
     .quinta-seccion .novedades .boton {
-      margin: 0 787.5px;
-      width: 345px;
-      font-size: 20px; }
-      .quinta-seccion .novedades .boton a {
-        padding: 16px 43px; } }
+      margin: 30px 0; }
+      .quinta-seccion .novedades .boton .a-boton {
+        background: #00F3BB;
+        padding: 13px 43px;
+        text-decoration: none;
+        color: #060A24; }
+        .quinta-seccion .novedades .boton .a-boton:hover {
+          background-image: linear-gradient(to left, #0000fe, #3333f5, #00d1e5, #00f0b8, #00f0b8);
+          color: white;
+          background-position: right;
+          box-shadow: 0 0 15px white; }
+
+@media only screen and (min-width: 768px) {
+  .quinta-seccion .novedades .h2-novedades {
+    margin-top: 140px; } }
 
 /*# sourceMappingURL=fifth-section.css.map */

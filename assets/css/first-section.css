@@ -19,7 +19,7 @@
     color: #060a24;
     text-align: justify;
     line-height: 22px;
-    font-family: 'IBM Plex Mono', monospace; }
+    font-family: "IBM Plex Mono", monospace; }
   .primera-seccion .boton-mas {
     background: #00f3bb;
     color: #060a24;
@@ -38,43 +38,26 @@
   color: white;
   background-position: right; }
 
-@media only screen and (min-width: 375px) and (max-width: 424px) {
-  .primera-seccion h1 {
-    font-size: 42px; }
-  .primera-seccion .p-primero {
-    font-size: 20px; }
-  .primera-seccion .boton-mas {
-    font-size: 18px;
-    width: 320px;
-    padding: 16px 0 16px 0; } }
-@media only screen and (min-width: 425px) and (max-width: 767px) {
-  .primera-seccion h1 {
-    font-size: 42px; }
-  .primera-seccion .p-primero {
-    font-size: 18px;
-    text-align: start; }
-  .primera-seccion .boton-mas {
-    font-size: 18px;
-    width: 360px;
-    padding: 18px 0; } }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) {
   .primera-seccion {
-    margin-left: 35px; }
+    margin-left: 100px; }
     .primera-seccion h1 {
-      margin: 70px 16px 15px;
-      font-size: 48px; }
+      margin: 120px 16px 15px;
+      font-size: 45px; }
       .primera-seccion h1 .h1part2 {
         display: inline-block; }
+        .primera-seccion h1 .h1part2 .dot {
+          color: blue; }
     .primera-seccion .p-primero {
       font-size: 20px;
-      margin-right: 310px;
-      margin-left: 16px; }
+      margin-right: 25%;
+      letter-spacing: 0px; }
     .primera-seccion .boton-mas {
       font-size: 16px;
       width: 320px;
-      padding: 18px 0;
+      padding: 16px 0;
       margin: 0px 20px; } }
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+@media only screen and (min-width: 1024px) {
   .primera-seccion {
     margin-left: 100px; }
     .primera-seccion h1 {
@@ -85,51 +68,19 @@
         .primera-seccion h1 .h1part2 .dot {
           color: blue; }
     .primera-seccion .p-primero {
-      font-size: 24px;
-      margin-right: 460px;
-      margin-left: 16px; }
+      font-size: 22px;
+      margin-right: 38%;
+      margin-left: 16px;
+      letter-spacing: 0px; }
     .primera-seccion .boton-mas {
       font-size: 16px;
       width: 320px;
       padding: 16px 0;
       margin: 0px 20px; } }
-@media only screen and (min-width: 1440px) and (max-width: 1919px) {
-  .primera-seccion {
-    margin-left: 200px; }
-    .primera-seccion h1 {
-      margin: 120px 16px 15px;
-      font-size: 64px; }
-      .primera-seccion h1 .h1part2 {
-        display: inline-block; }
-        .primera-seccion h1 .h1part2 .dot {
-          color: blue; }
-    .primera-seccion .p-primero {
-      font-size: 18px;
-      margin-right: 700px;
-      margin-left: 16px; }
-    .primera-seccion .boton-mas {
-      font-size: 18px;
-      width: 226px;
-      padding: 16px 0;
-      margin: 18px 20px; } }
-@media only screen and (min-width: 1920px) {
-  .primera-seccion {
-    margin-left: 200px; }
-    .primera-seccion h1 {
-      margin: 120px 16px 15px;
-      font-size: 74px; }
-      .primera-seccion h1 .h1part2 {
-        display: inline-block; }
-        .primera-seccion h1 .h1part2 .dot {
-          color: blue; }
-    .primera-seccion .p-primero {
-      font-size: 20px;
-      margin-right: 700px;
-      margin-left: 16px; }
-    .primera-seccion .boton-mas {
-      font-size: 18px;
-      width: 226px;
-      padding: 16px 0;
-      margin: 18px 20px; } }
+@media only screen and (min-width: 1440px) {
+  .primera-seccion h1 {
+    font-size: 65px; }
+  .primera-seccion .p-primero {
+    margin-right: 48%; } }
 
 /*# sourceMappingURL=first-section.css.map */

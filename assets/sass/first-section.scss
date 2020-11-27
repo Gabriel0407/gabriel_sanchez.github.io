@@ -3,16 +3,12 @@
   flex-direction: column;
 
   h1 {
-    
-    
     color: #060a24;
     font-size: 36px;
     margin: 32px 10px;
     display: inline-block;
     .world {
       color: #060a24;
-      
-
 
       text-decoration-line: line-through;
       display: inline-block;
@@ -29,7 +25,7 @@
     color: #060a24;
     text-align: justify;
     line-height: 22px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
   }
 
   .boton-mas {
@@ -59,69 +55,37 @@
   color: white;
   background-position: right;
 }
-
-@media only screen and (min-width: 375px) and (max-width: 424px) {
+@media only screen and (min-width: 768px) {
   .primera-seccion {
-    h1 {
-      font-size: 42px;
-    }
-
-    .p-primero {
-      font-size: 20px;
-    }
-
-    .boton-mas {
-      font-size: 18px;
-      width: 320px;
-      padding: 16px 0 16px 0;
-    }
-  }
-}
-@media only screen and (min-width: 425px) and (max-width: 767px) {
-  .primera-seccion {
-    h1 {
-      font-size: 42px;
-    }
-
-    .p-primero {
-      font-size: 18px;
-      text-align: start;
-    }
-
-    .boton-mas {
-      font-size: 18px;
-      width: 360px;
-      padding: 18px 0;
-    }
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .primera-seccion {
-    margin-left: 35px;
+    margin-left: 100px;
 
     h1 {
-      margin: 70px 16px 15px;
-      font-size: 48px;
+      margin: 120px 16px 15px;
+      font-size: 45px;
       .h1part2 {
         display: inline-block;
+
+        .dot {
+          color: blue;
+        }
       }
     }
 
     .p-primero {
       font-size: 20px;
-      margin-right: 310px;
-      margin-left: 16px;
+      margin-right: 25%;
+      letter-spacing: 0px;
     }
 
     .boton-mas {
       font-size: 16px;
       width: 320px;
-      padding: 18px 0;
+      padding: 16px 0;
       margin: 0px 20px;
     }
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+@media only screen and (min-width: 1024px){
   .primera-seccion {
     margin-left: 100px;
 
@@ -138,9 +102,10 @@
     }
 
     .p-primero {
-      font-size: 24px;
-      margin-right: 460px;
+      font-size: 22px;
+      margin-right: 38%;
       margin-left: 16px;
+      letter-spacing: 0px;
     }
 
     .boton-mas {
@@ -151,61 +116,14 @@
     }
   }
 }
-@media only screen and (min-width: 1440px) and (max-width: 1919px) {
-  .primera-seccion {
-    margin-left: 200px;
-
-    h1 {
-      margin: 120px 16px 15px;
-      font-size: 64px;
-      .h1part2 {
-        display: inline-block;
-        .dot {
-          color: blue;
-        }
-      }
+@media only screen and (min-width: 1440px){
+  .primera-seccion{
+    h1{
+      font-size: 65px;
+    }
+    .p-primero{
+      margin-right: 48%;
     }
 
-    .p-primero {
-      font-size: 18px;
-      margin-right: 700px;
-      margin-left: 16px;
-    }
-
-    .boton-mas {
-      font-size: 18px;
-      width: 226px;
-      padding: 16px 0;
-      margin: 18px 20px;
-    }
-  }
-}
-@media only screen and (min-width: 1920px) {
-  .primera-seccion {
-    margin-left: 200px;
-
-    h1 {
-      margin: 120px 16px 15px;
-      font-size: 74px;
-      .h1part2 {
-        display: inline-block;
-        .dot {
-          color: blue;
-        }
-      }
-    }
-
-    .p-primero {
-      font-size: 20px;
-      margin-right: 700px;
-      margin-left: 16px;
-    }
-
-    .boton-mas {
-      font-size: 18px;
-      width: 226px;
-      padding: 16px 0;
-      margin: 18px 20px;
-    }
   }
 }
