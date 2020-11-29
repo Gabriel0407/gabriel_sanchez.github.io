@@ -22,13 +22,12 @@
         color: white;
         font-family: "IBM Plex Mono", monospace;
       }
-      .img-ep-l {
-        display: none;
-      }
-
+     
+      
       .img-ep {
         margin: 10px 2.5%;
         width: 95%;
+        background-color: transparent;
         height: 232px;
       }
     }
@@ -51,9 +50,10 @@
     }
     .p-venimos {
       font-family: "IBM Plex Mono", monospace;
-
+      background-color: transparent;
+      border: 0px;
       margin: 8px 2% 54px 2%;
-
+      
       font-size: 16px;
     }
   }

@@ -179,11 +179,10 @@ header {
       margin-left: 16px;
       color: white;
       font-family: "IBM Plex Mono", monospace; }
-    .segunda-seccion .segunda-seccion-parte1 .spotify .img-ep-l {
-      display: none; }
     .segunda-seccion .segunda-seccion-parte1 .spotify .img-ep {
       margin: 10px 2.5%;
       width: 95%;
+      background-color: transparent;
       height: 232px; }
   .segunda-seccion .phone {
     width: 300px;
@@ -201,6 +200,8 @@ header {
       margin-right: 140px; }
     .segunda-seccion .dd-venimos .p-venimos {
       font-family: "IBM Plex Mono", monospace;
+      background-color: transparent;
+      border: 0px;
       margin: 8px 2% 54px 2%;
       font-size: 16px; }
 
