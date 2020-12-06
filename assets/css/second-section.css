@@ -15,7 +15,8 @@
       margin: 10px 2.5%;
       width: 95%;
       background-color: transparent;
-      height: 232px; }
+      height: 232px;
+      border: 0; }
   .segunda-seccion .phone {
     width: 300px;
     height: auto;
